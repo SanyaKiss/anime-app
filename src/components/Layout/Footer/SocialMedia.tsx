@@ -1,11 +1,21 @@
-import { AiOutlineInstagram, AiOutlineTwitter, AiOutlineYoutube } from "react-icons/ai";
+import {
+  AiOutlineInstagram,
+  AiOutlineTwitter,
+  AiOutlineYoutube,
+} from "react-icons/ai";
 
 export function SocialMedia() {
   return (
     <div className="flex flex-row-reverse gap-4">
-      <AiOutlineInstagram size={"2rem"} />
-      <AiOutlineTwitter size={"2rem"} />
-      <AiOutlineYoutube size={"2rem"} />
+      <a href="https://www.youtube.com/watch?v=e1OWVKtAp7s">
+        <AiOutlineInstagram size={"2rem"} />
+      </a>
+      <a href="https://www.youtube.com/watch?v=Ev_hjExmAKc">
+        <AiOutlineTwitter size={"2rem"} />
+      </a>
+      <a href="https://www.youtube.com/watch?v=PaEkgV1JOB4">
+        <AiOutlineYoutube size={"2rem"} />
+      </a>
     </div>
   );
 }
