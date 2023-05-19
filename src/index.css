@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  background: hsl(208, 21%, 12%);
+  @apply scrollbar-thin scrollbar-thumb-slate-500 scrollbar-track-slate-600;
+}
+
+@layer components {
+  .app-container {
+    @apply container max-w-7xl mx-auto h-full;
+  }
+
+  .title {
+    @apply text-slate-200 text-3xl font-bold cursor-default;
+  }
+
+  .icon {
+    @apply scale-150 text-slate-300;
+  }
+
+  .genre {
+    @apply px-4 py-1 bg-slate-600 rounded-full text-base
+        cursor-pointer text-slate-100 hover:bg-slate-500 
+        hover:bg-opacity-50 list-none;
+  }
+}
