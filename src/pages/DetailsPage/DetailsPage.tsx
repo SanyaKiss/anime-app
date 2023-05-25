@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom';
 import { useGetAnimeFullByIdQuery } from "@/redux/slices/animeApiSlice";
 import { disableAutoplay } from '@/utils';
 import { AddToFavorites } from '@/components/Elements/AddToFavorites';
-import { Info } from './Info';
+import { Info } from './Info/Info';
 import { Populer } from './Populer';
 import { Synopsis } from './Synopsis';
 import { Trailer } from './Trailer';
