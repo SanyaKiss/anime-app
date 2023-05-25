@@ -38,7 +38,7 @@ export function AddToFavorites({ payload, size = 30 }: Props) {
          <CgHeart
             size={size}
             onClick={handleClick}
-            className={`cursor-pointer text-slate-400 ${isLiked ? 'text-red-500' : ''}
+            className={`cursor-pointer  ${isLiked ? 'text-red-500' : 'text-slate-400'}
             hover:text-red-500 transition duration-300 ease-in-out`}
          />
       </div>
